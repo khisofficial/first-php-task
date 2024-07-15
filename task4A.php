@@ -3,7 +3,11 @@
 $x= "students";
 $y= "affairs";
 
-$z= "$x" . "$y";
+$z = $x ." ". $y;
 
-echo $z;
-echo strlen("$z");
+echo $z .'<br/>';
+echo strlen($z);
+
+// i tried spacing the 
+// concatenated variables
+//  but it didnt work

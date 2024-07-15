@@ -7,22 +7,24 @@ $studentA = [
 // print_r($studentA);
 echo "</br>";
 
-$studentB= [
+$studentB = [
     'age'=> '20',
     'grade'=> 'second'
 ];
 // print_r($studentB);
 echo "</br>";
 
-$studentC= [
+$studentC = [
     'age'=> '18',
     'grade'=> 'third'
 ];
 // print_r($studentC);
 echo "</br>";
 
-$students= "$studentA" . "$studentB" . "$studentC";
-echo $students;
+$students['studentA'] = $studentA;
+$students['studentB'] = $studentB; 
+$students['studentC'] = $studentC;
+print_r($students);
 
 
 
